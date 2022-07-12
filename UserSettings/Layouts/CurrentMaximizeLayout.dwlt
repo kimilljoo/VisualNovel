@@ -26,7 +26,11 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 129
+=======
+  controlID: 29117
+>>>>>>> 신영진
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -49,14 +53,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 744
+<<<<<<< HEAD
     width: 1213
+=======
+    width: 1216
+>>>>>>> 신영진
     height: 615
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
+  m_SerializedViewNames:
+  - UnityEditor.DeviceSimulation.SimulatorWindow
+  m_SerializedViewValues:
+  - C:\Users\Master\Desktop\VisualNovel\Library\PlayModeViewStates\ca81e76cd87fa1e49a65b2564570ddf8
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
@@ -97,16 +107,24 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 1213
       height: 594
     m_Scale: {x: 0.55, y: 0.55}
     m_Translation: {x: 606.5, y: 297}
+=======
+      width: 1216
+      height: 594
+    m_Scale: {x: 0.55, y: 0.55}
+    m_Translation: {x: 608, y: 297}
+>>>>>>> 신영진
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -1102.7273
       y: -540
       width: 2205.4546
@@ -114,6 +132,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 0.55
   m_LastWindowPixelSize: {x: 1213, y: 615}
+=======
+      x: -1105.4545
+      y: -540
+      width: 2210.909
+      height: 1080
+    m_MinimalGUI: 1
+  m_defaultScale: 0.55
+  m_LastWindowPixelSize: {x: 1216, y: 615}
+>>>>>>> 신영진
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -138,12 +165,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1214
+=======
+    width: 1217
+>>>>>>> 신영진
     height: 1307
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 130
+=======
+  controlID: 29096
+>>>>>>> 신영진
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,10 +196,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1214
     height: 671
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+    width: 1217
+    height: 671
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> 신영진
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -192,7 +234,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
+<<<<<<< HEAD
     width: 1213
+=======
+    width: 1216
+>>>>>>> 신영진
     height: 650
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -417,9 +463,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 686.6294, y: 481.72516, z: -0.5325915}
     speed: 2
     m_Value: {x: 686.6294, y: 481.72516, z: -0.5325915}
+=======
+    m_Target: {x: 1265, y: 540, z: 0}
+    speed: 2
+    m_Value: {x: 1265, y: 540, z: 0}
+>>>>>>> 신영진
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -470,9 +522,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 63.25916
     speed: 2
     m_Value: 63.25916
+=======
+    m_Target: 1101.4536
+    speed: 2
+    m_Value: 1101.4536
+>>>>>>> 신영진
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -514,7 +572,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 671
+<<<<<<< HEAD
     width: 1214
+=======
+    width: 1217
+>>>>>>> 신영진
     height: 636
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -538,7 +600,11 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1214
+=======
+    x: 1217
+>>>>>>> 신영진
     y: 0
     width: 404
     height: 1307
@@ -569,7 +635,11 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1214
+=======
+    x: 1217
+>>>>>>> 신영진
     y: 73
     width: 402
     height: 1286
@@ -582,18 +652,30 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 949ffeffe29ffeff2aa0feff76a0feff92a4fefff8a9feff5ec9feff2efbffff6a5f0000725f0000885f00009a5f0000a45f0000b45f0000d4640000f6640000a8680000666b0000806b0000ba6b0000e26b00005472000072720000847200008e720000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: Yes
         m_OriginalName: Yes
+=======
+      m_ExpandedIDs: 34cdffffbaceffffecdfffff6ee0ffffbce0ffff04e1ffff58e1ffff9ce2ffff36e4ffff86e4ffff2af3ffff26fbffff7a5f00008a5f00003c6100005e6100006e7b0000907b00004c7c00005c7c0000a87e0000007f0000227f00009a7f00008689000096890000228a0000
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: Menu Button Panel
+        m_OriginalName: Menu Button Panel
+>>>>>>> 신영진
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
+<<<<<<< HEAD
         m_UserData: 27494
+=======
+        m_UserData: 35396
+>>>>>>> 신영진
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -621,9 +703,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1618
     y: 0
     width: 362
+=======
+    x: 1621
+    y: 0
+    width: 361
+>>>>>>> 신영진
     height: 1307
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
@@ -652,9 +740,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1618
     y: 73
     width: 360
+=======
+    x: 1621
+    y: 73
+    width: 359
+>>>>>>> 신영진
     height: 1286
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -673,22 +767,38 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Scenes
+=======
+    - Assets/Script
+>>>>>>> 신영진
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
   - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\VisualNovel
+=======
+  - Assets/Script
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\Master\Desktop\VisualNovel
+>>>>>>> 신영진
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 36600000
     m_LastClickedID: 24630
     m_ExpandedIDs: 000000002e60000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: 0c600000
+    m_LastClickedID: 24588
+    m_ExpandedIDs: 00000000f65f000000ca9a3b
+>>>>>>> 신영진
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -716,7 +826,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000002e600000
+=======
+    m_ExpandedIDs: 00000000f65f000000ca9a3b
+>>>>>>> 신영진
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -741,9 +855,15 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
+=======
+    m_SelectedInstanceIDs: 448a0000
+    m_LastClickedInstanceID: 35396
+    m_HadKeyboardFocusLastEvent: 0
+>>>>>>> 신영진
     m_ExpandedInstanceIDs: 56a40000d2a40000a8a80000be62000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -787,12 +907,21 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1980
     y: 0
     width: 580
     height: 1307
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+    x: 1982
+    y: 0
+    width: 578
+    height: 1307
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> 신영진
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -818,9 +947,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1980
     y: 73
     width: 579
+=======
+    x: 1982
+    y: 73
+    width: 577
+>>>>>>> 신영진
     height: 1286
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -832,7 +967,11 @@ MonoBehaviour:
     m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
+<<<<<<< HEAD
   m_LastInspectedObjectInstanceID: -1
+=======
+  m_LastInspectedObjectInstanceID: 35396
+>>>>>>> 신영진
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
