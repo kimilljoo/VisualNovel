@@ -82,7 +82,7 @@ public class Dialog : MonoBehaviour
 
     private void SetActiveObjects(Speaker speaker, bool visible)
     {
-        speaker.imageDialog.gameObject.SetActive(visible);
+        speaker.panel.gameObject.SetActive(visible);
         speaker.textName.gameObject.SetActive(visible);
         speaker.textDialouge.gameObject.SetActive(visible);
     }
@@ -94,7 +94,8 @@ public class Dialog : MonoBehaviour
 public struct Speaker
 {
     public SpriteRenderer spriteRenderer; // 캐릭터 이미지
-    public Image imageDialog;             // 대화창 Image UI
+    public GameObject panel;            // 대화창 Image UI
+
     public TextMeshProUGUI textName;      // 캐릭터 이름
     public TextMeshProUGUI textDialouge;  // 대사
     public GameObject objectArrow;        // 대사 출력 후 완료 시 출력되는 커서 오브젝트

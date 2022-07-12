@@ -529,7 +529,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751317397}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1191,6 +1191,7 @@ GameObject:
   - component: {fileID: 1213557204}
   - component: {fileID: 1213557203}
   - component: {fileID: 1213557202}
+  - component: {fileID: 1213557206}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1282,6 +1283,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1213557206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213557201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf71199fd00240940994a5b11ef1ad33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speakers:
+  - spriteRenderer: {fileID: 276863051}
+    imageDialog: {fileID: 1405312813}
+    textName: {fileID: 1084686930}
+    textDialouge: {fileID: 1438200741}
+    objectArrow: {fileID: 0}
+  - spriteRenderer: {fileID: 1245317316}
+    imageDialog: {fileID: 1405312813}
+    textName: {fileID: 1084686930}
+    textDialouge: {fileID: 1438200741}
+    objectArrow: {fileID: 0}
+  dialogs:
+  - speakerIndex: 0
+    name: "\uC0AC\uCFE0\uB77C"
+    dialogue: "\uC548\uB155\uD558\uC138\uC694"
+  - speakerIndex: 1
+    name: "\uB9C8\uB9B0"
+    dialogue: "\uC548\uB155\uD558\uC0B4\uBC95"
+  isAutoStart: 1
 --- !u!1 &1245317315
 GameObject:
   m_ObjectHideFlags: 0
