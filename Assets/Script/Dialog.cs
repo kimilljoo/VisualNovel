@@ -31,6 +31,11 @@ public class Dialog : MonoBehaviour
         }
     }
 
+    public void Update()
+    {
+        UpdateDialog();
+    }
+
     public bool UpdateDialog()
     {
         if (isFirst == true)
