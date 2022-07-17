@@ -1772,6 +1772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ca104746b26d1f46b72daf4132ce98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogSystem: []
 --- !u!1 &1045356818
 GameObject:
   m_ObjectHideFlags: 0
@@ -2176,6 +2177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ca104746b26d1f46b72daf4132ce98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogSystem: []
 --- !u!1 &1178005727
 GameObject:
   m_ObjectHideFlags: 0
@@ -2219,11 +2221,11 @@ MonoBehaviour:
   dialogs:
   - speakerIndex: 1
     name: "\uC0AC\uCFE0\uB77C"
-    dialogue: "\uC548\uB155\uD558\uC138\uC694 \uC120\uBC30...\uBD80\uB974\uC154\uC11C
-      \uC654\uB294\uB370 \uBB34\uC2A8\uC77C\uC778\uAC00\uC694..?"
+    dialogue: "\uC120\uBC30~ \uC65C \uC544\uBB34\uB9D0\uB3C4 \uD558\uC9C0\uC54A\uC73C\uC2DC\uB294
+      \uAC70\uC5D0\uC694??"
   - speakerIndex: 0
     name: "\uB9C8\uB9B0"
-    dialogue: " \uC120\uBC30 \uB9C8\uB9B0\uB3C4 \uC654\uC5B4\uC694~!"
+    dialogue: "\uC120\uBC30 \uB9D0\uC880 \uD574\uC918\uC694~ \uBB34\uC2A8\uC77C\uC778\uB370\uC694?"
   isAutoStart: 1
 --- !u!4 &1178005729
 Transform:
@@ -2850,7 +2852,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1657393550}
-  - component: {fileID: 1657393549}
+  - component: {fileID: 1657393551}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2858,20 +2860,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1657393549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1657393548}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8383701915121514491cb547ac86a0a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogSystem01: {fileID: 1178005728}
-  SelectPanel: {fileID: 467257149}
 --- !u!4 &1657393550
 Transform:
   m_ObjectHideFlags: 0
@@ -2887,6 +2875,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1657393551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657393548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ca104746b26d1f46b72daf4132ce98b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogSystem:
+  - {fileID: 1178005728}
 --- !u!1 &1679451277
 GameObject:
   m_ObjectHideFlags: 0
