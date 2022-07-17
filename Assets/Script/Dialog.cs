@@ -48,9 +48,11 @@ public class Dialog : MonoBehaviour
 
             isFirst = false;
         }
+        return false;
+    }
 
-        if (Input.GetMouseButtonDown(0))
-        {
+    public void OnClick()
+    {
             if (isTypingEffect == true)
             {
                 isTypingEffect = false;
@@ -58,7 +60,6 @@ public class Dialog : MonoBehaviour
                 StopCoroutine("OnTypingText");
                 speakers[currentSpeakerIndex].textDialouge.text = dialogs[currentDialogIndex].dialogue;
                 speakers[currentDialogIndex].objectArrow.SetActive(true);
-                return false;
 
             }
             if (dialogs.Length > currentDialogIndex + 1)
@@ -68,16 +69,13 @@ public class Dialog : MonoBehaviour
             }
             else
             {
-                for(int i = 0; i < speakers.Length; ++ i)
+                for (int i = 0; i < speakers.Length; ++i)
                 {
                     SetActiveObjects(speakers[i], false);
 
                     speakers[i].spriteRenderer.gameObject.SetActive(false);
                 }
-                return true;
             }
-        }
-        return false;
     }
 
     private void SetNextDialog()
