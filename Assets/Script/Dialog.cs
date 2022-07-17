@@ -6,6 +6,7 @@ using TMPro;
 
 public class Dialog : MonoBehaviour
 {
+
     [SerializeField]
     private Speaker[]       speakers;   // 대화하는 사람
     [SerializeField]
@@ -15,6 +16,7 @@ public class Dialog : MonoBehaviour
     private bool isFirst = true;
     private int currentDialogIndex = -1; // 현재 대사 순번
     private int currentSpeakerIndex = 0; // 현재 말을 하는 화자의 speakers 배열 순번
+
 
     private void Awake()
     {
@@ -47,9 +49,13 @@ public class Dialog : MonoBehaviour
 
             isFirst = false;
         }
-
-        if (Input.GetMouseButtonDown(0))
-        {
+        
+        
+        return false;
+    }
+    
+    public void OnClick()
+    {
             if (dialogs.Length > currentDialogIndex + 1)
             {
                 SetNextDialog();
@@ -57,16 +63,14 @@ public class Dialog : MonoBehaviour
             }
             else
             {
-                for(int i = 0; i < speakers.Length; ++ i)
+                for (int i = 0; i < speakers.Length; ++i)
                 {
                     SetActiveObjects(speakers[i], false);
 
                     speakers[i].spriteRenderer.gameObject.SetActive(false);
                 }
-                return true;
             }
-        }
-        return false;
+
     }
 
     private void SetNextDialog()
