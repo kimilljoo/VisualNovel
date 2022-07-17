@@ -11,11 +11,12 @@ public class Dialog : MonoBehaviour
     [SerializeField]
     private DialogData[]    dialogs;
     [SerializeField]
-    private bool isAutoStart = true;
-    private bool isFirst = true;
-    private int currentDialogIndex = -1; // 현재 대사 순번
-    private int currentSpeakerIndex = 0; // 현재 말을 하는 화자의 speakers 배열 순번
-
+    private bool    isAutoStart = true;
+    private bool    isFirst = true;
+    private int     currentDialogIndex = -1; // 현재 대사 순번
+    private int     currentSpeakerIndex = 0; // 현재 말을 하는 화자의 speakers 배열 순번
+    private float   typingSpeed = 0.1f;
+    private bool    isTypingEffect = false;
     private void Awake()
     {
         Setup();
@@ -50,6 +51,16 @@ public class Dialog : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
+            if (isTypingEffect == true)
+            {
+                isTypingEffect = false;
+
+                StopCoroutine("OnTypingText");
+                speakers[currentSpeakerIndex].textDialouge.text = dialogs[currentDialogIndex].dialogue;
+                speakers[currentDialogIndex].objectArrow.SetActive(true);
+                return false;
+
+            }
             if (dialogs.Length > currentDialogIndex + 1)
             {
                 SetNextDialog();
@@ -83,6 +94,7 @@ public class Dialog : MonoBehaviour
 
         speakers[currentSpeakerIndex].textDialouge.text = dialogs[currentDialogIndex].dialogue;
 
+        StartCoroutine("OnTypingText");
     }
 
     private void SetActiveObjects(Speaker speaker, bool visible)
@@ -90,6 +102,23 @@ public class Dialog : MonoBehaviour
         speaker.panel.gameObject.SetActive(visible);
         speaker.textName.gameObject.SetActive(visible);
         speaker.textDialouge.gameObject.SetActive(visible);
+    }
+
+    private IEnumerator OnTypingText()
+    {
+        int index = 0;
+        isTypingEffect = true;
+
+        while (index <= dialogs[currentDialogIndex].dialogue.Length)
+        {
+            speakers[currentSpeakerIndex].textDialouge.text = dialogs[currentDialogIndex].dialogue.Substring(0, index);
+            index++;
+            yield return new WaitForSeconds(typingSpeed);
+        }
+
+        isTypingEffect = false;
+
+        speakers[currentSpeakerIndex].objectArrow.SetActive(true);
     }
 }
 
